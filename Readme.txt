@@ -1,7 +1,6 @@
 Project Name: Stationery Shop B4A2V5, 
 Live Deployment Link: https://stationary-shop-backend-six.vercel.app/
-GitHub Link:
-Video Explanation (Public Link):
+GitHub Link: https://github.com/abrarcuet96/stationary-shop-backend-b4a2v5
 ________________________________________________________________________
 
 Project Setup Explanation:
