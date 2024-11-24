@@ -1,6 +1,6 @@
 Project Name: Stationery Shop B4A2V5, 
 Live Deployment Link: https://stationary-shop-backend-six.vercel.app/
-GitHub Link: https://github.com/abrarcuet96/stationary-shop-backend-b4a2v5
+Video Explanation (Public Link): https://drive.google.com/file/d/14QJDeKwGfGXfsUFsbfPG7hW76f8sYU2Z/view?usp=sharing
 ________________________________________________________________________
 
 Project Setup Explanation:
@@ -15,7 +15,7 @@ Project Setup Explanation:
 Project Diong Explanation:
 1. At first created the files for two "modules" orders & "products".
 2. Then for both files I have made interface-> schema-> service->controller->routes.
-3. validated the models using zod but later on I have used custor error handler.
+3. validated the models using zod but later on I have used custom error handler.
 
 Features:
 # Product handling:
