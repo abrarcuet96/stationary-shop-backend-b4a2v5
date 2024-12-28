@@ -13,7 +13,7 @@ const createProduct = async (
     res.status(200).json({
       success: true,
       message: 'Product is created successfully',
-      result,
+      data: result,
     });
   } catch (error) {
     next(error);
@@ -26,7 +26,7 @@ const getProducts = async (req: Request, res: Response, next: NextFunction) => {
     res.status(200).json({
       success: true,
       message: 'Products are retrieved successfully',
-      result,
+      data: result,
     });
   } catch (error) {
     next(error);
@@ -45,7 +45,7 @@ const getSingleProduct = async (
       message: result
         ? 'Product is retrieved successfully'
         : 'Product is not available',
-      result,
+      data: result,
     });
   } catch (error) {
     next(error);
@@ -77,7 +77,7 @@ const updateProduct = async (
     res.status(200).json({
       success: true,
       message: 'Product is updated successfully',
-      result,
+      data: result,
     });
   } catch (error) {
     next(error);
@@ -95,7 +95,7 @@ const deleteProduct = async (
     res.status(200).json({
       success: true,
       message: 'Product is deleted successfully',
-      result,
+      data: result,
     });
   } catch (error) {
     next(error);

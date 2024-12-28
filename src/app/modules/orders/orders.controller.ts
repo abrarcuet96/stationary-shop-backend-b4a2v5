@@ -19,7 +19,7 @@ const createOrder = async (req: Request, res: Response, next: NextFunction) => {
       res.status(200).json({
         success: true,
         message: 'Order is created successfully',
-        result,
+        data: result,
       });
     }
   } catch (error) {
@@ -32,7 +32,7 @@ const getOrders = async (req: Request, res: Response, next: NextFunction) => {
     res.status(200).json({
       success: true,
       message: 'Orders are retrieved successfully',
-      result,
+      data: result,
     });
   } catch (error) {
     next(error);
@@ -49,7 +49,7 @@ const getSingleOrder = async (
     res.status(200).json({
       success: true,
       message: 'Order is retrieved successfully',
-      result,
+      data: result,
     });
   } catch (error) {
     next(error);
@@ -61,7 +61,7 @@ const getRevenue = async (req: Request, res: Response, next: NextFunction) => {
     res.status(200).json({
       success: true,
       message: 'Revenue is calculated successfully',
-      orders,
+      data: orders,
     });
   } catch (error) {
     next(error);
@@ -75,7 +75,7 @@ const updateOrder = async (req: Request, res: Response, next: NextFunction) => {
     res.status(200).json({
       success: true,
       message: 'Order is updated successfully',
-      result,
+      data: result,
     });
   } catch (error) {
     next(error);
@@ -88,7 +88,7 @@ const deleteOrder = async (req: Request, res: Response, next: NextFunction) => {
     res.status(200).json({
       success: true,
       message: 'Order is deleted successfully',
-      result,
+      data: result,
     });
   } catch (error) {
     next(error);
